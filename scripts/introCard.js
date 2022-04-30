@@ -9,7 +9,7 @@ let domString =
   <p class="card-text"></p>
   <p class="card-text"></p>
   <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button">Start Sortin</button>
+  <button id="Startsortin" class="btn btn-primary" type="button">Start Sortin</button>
 </div>
   <p class="card-text">Last updated 3 mins ago</p>
 </div>
