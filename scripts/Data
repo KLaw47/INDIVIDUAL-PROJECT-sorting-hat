@@ -1,0 +1,33 @@
+const gowStudents = [
+  {
+    name: "",
+    house: 'Aqrabus',
+    enrolled: true,
+    imageUrl: "./images/arcrabus.jpg"
+  }
+  {
+    name: "",
+    house: "Hercinil",
+    enrolled: true,
+    imageUrl: "./images/Hercinil.jpg"
+  }
+  {
+    name: "",
+    house:"Messanteu",
+    enrolled: true,
+    imageUrl: "./images/Messanteu.jpg"
+  }
+  {
+    name: "",
+    house: "Chimeron",
+    enrolled: true,
+    imageUrl: "./images/Chimeron.jpg"
+  }
+]
+const nkArmy = [
+  {
+    name: "",
+    enrolled: false,
+    imageUrl:"./images/NightmareKing.jpg"
+  }
+]
