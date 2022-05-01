@@ -1,4 +1,5 @@
 import renderToDom from "./renderToDom.js";
+import eventListeners from "./eventListeners.js";
 
 const renderIntro = () => {
 let domString =
@@ -9,12 +10,12 @@ let domString =
   <p class="card-text"></p>
   <p class="card-text"></p>
   <div class="d-grid gap-2">
-  <button id="Startsortin" class="btn btn-primary" type="button">Start Sortin</button>
+  <button class="btn btn-primary" id="sort">Start Sortin</button>
 </div>
   <p class="card-text">Last updated 3 mins ago</p>
 </div>
 </div>`;
 
-renderToDom ("#container", domString);
+renderToDom ("#containerTop", domString);
 };
 export default renderIntro;
