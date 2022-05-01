@@ -1,3 +1,4 @@
+import filterBtns from "./filterBtns.js";
 import renderToDom from "./renderToDom.js";
 
 const renderSortApp = () => {
@@ -11,5 +12,6 @@ const renderSortApp = () => {
 </form>`;
 
 renderToDom ("#sortForm", domstring);
+
 }
 export default renderSortApp;
