@@ -25,7 +25,7 @@ let domString =
        <label for="StudentName" class="form-label">Student Name</label>
         <input type="text" class="form-control" id="StudentName" aria-describedby="student-name">
      </div>
-      <button type="submit" class="btn btn-primary">Sort</button>
+      <button id="submit" class="btn btn-primary">Sort</button>
    </form>
   </div>
   <div id="filterbtns">
@@ -35,9 +35,9 @@ let domString =
     <button class="btn btn-secondary btn-lg buttonRow" id="chim">Chimeron</button>
     <button class="btn btn-secondary btn-lg buttonRow" id= "clear">Clear Filters</button>
   </div>
-</div>
 <div class="students" id="enrolledStudents"></div>
 <div class="nkArmy"></div>
+</div>
 `;
 
 renderToDom ("#container", domString);
