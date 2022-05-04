@@ -7,10 +7,14 @@ import eventListeners from "./eventListeners.js";
 
 import btnHide from "./btnHide.js";
 
+import renderStudents from "./studentCards.js";
+import { gowStudents } from "./data.js";
+
 
 const startApp = () => {
+  console.log(gowStudents)
   renderIntro()
-btnHide()
+  btnHide()
   eventListeners()
 }
 startApp()
