@@ -1,5 +1,5 @@
 import renderToDom from "./renderToDom.js";
-//import eventListeners from "./eventListeners.js";
+import eventListeners from "./eventListeners.js";
 
 
 const renderIntro = () => {
@@ -23,9 +23,9 @@ let domString =
    <form id="student">
      <div class="mb-3">
        <label for="StudentName" class="form-label">Student Name</label>
-        <input type="text" class="form-control" id="StudentName" aria-describedby="student-name">
+        <input type="text" placeholder="name" class="form-control" id="studentName" aria-describedby="student-name">
      </div>
-      <button id="submit" class="btn btn-primary">Sort</button>
+      <button type="submit" id="sort" class="btn btn-primary">Sort</button>
    </form>
   </div>
   <div id="filterbtns">
