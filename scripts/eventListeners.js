@@ -4,6 +4,15 @@ import renderStudents from "./studentCards.js";
 
 const eventListeners = () => {
 
+  //filters
+  document.querySelector('#filterbtns').addEventListener('click', (e) => {
+    if (e.target.id === 'clear') {
+      renderStudents(gowStudents);
+    }else if (e.target.id) {
+      const houses = gowStudents.filter(el =>el.house === e.target.id);
+      renderStudents(houses);
+    }
+  })
   //start sorting
   document.querySelector('#sortStart').addEventListener ('click' ,(e)=> {
   const btnId = e.target.id;

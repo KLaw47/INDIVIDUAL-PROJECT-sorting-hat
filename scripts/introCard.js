@@ -29,10 +29,10 @@ let domString =
    </form>
   </div>
   <div id="filterbtns">
-    <button class="btn btn-secondary btn-lg buttonRow" id="aqra">Aqrabus</button>
-    <button class="btn btn-secondary btn-lg buttonRow" id="herc">Hercinil</button>
-    <button class="btn btn-secondary btn-lg buttonRow" id="mess">Messanteu</button>
-    <button class="btn btn-secondary btn-lg buttonRow" id="chim">Chimeron</button>
+    <button class="btn btn-secondary btn-lg buttonRow" id="acrabus">Aqrabus</button>
+    <button class="btn btn-secondary btn-lg buttonRow" id="hercinil">Hercinil</button>
+    <button class="btn btn-secondary btn-lg buttonRow" id="messanteu">Messanteu</button>
+    <button class="btn btn-secondary btn-lg buttonRow" id="chimeron">Chimeron</button>
     <button class="btn btn-secondary btn-lg buttonRow" id= "clear">Clear Filters</button>
   </div>
 <div class="students" id="enrolledStudents"></div>
