@@ -36,7 +36,7 @@ let domString =
     <button class="btn btn-secondary btn-lg buttonRow" id= "clear">Clear Filters</button>
   </div>
 <div class="students" id="enrolledStudents"></div>
-<div class="nkArmy"></div>
+<div class="nkArmy" id="n-k-army"></div>
 </div>
 `;
 

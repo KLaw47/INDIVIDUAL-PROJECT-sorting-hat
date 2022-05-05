@@ -1,6 +1,7 @@
 import btnHide from "./btnHide.js";
 import { gowHouses, gowStudents, nkArmy} from "./data.js"
 import renderStudents from "./studentCards.js";
+import renderArmy from"./nkArmyCards.js"
 
 const eventListeners = () => {
 
@@ -34,11 +35,26 @@ const eventListeners = () => {
       house: gowHouses[random],
       enrolled: true,
    }
+
    gowStudents.push(studentObj);
    renderStudents(gowStudents);
   form.reset();
   console.log(gowStudents);
   });
+
+document.querySelector('#enrolledStudents').addEventListener('click', (e) => {
+    if (e.target.id) {
+      const [method, id ] = e.target.id.split("--");
+      const index = gowStudents.findIndex(student => student.id === parseInt(id))
+      if (e.target.id.includes('expel')) {
+        nkArmy.push(gowStudents [index])
+        gowStudents.splice(index, 1)
+        renderStudents(gowStudents);
+        renderArmy(nkArmy);
+console.log(nkArmy);
+      }
+    }
+  })
 };
 
 
