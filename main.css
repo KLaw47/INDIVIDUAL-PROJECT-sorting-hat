@@ -9,6 +9,42 @@ h1 {
   display: flex;
   flex-flow: row wrap;
 }
+#containerTop {
+  width: 100em;
+}
+.sidebar {
+  display: flex;
+  flex-direction: row;
+margin-top: 200px;
+}
+.sortForm {
+  width: 300px;
+  margin-left: 20px;
+}
+.filter-btns {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.buttonRow {
+  margin: 20px 20px;
+}
+.students {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+}
+.nkArmy {
+  display: flex;
+  position: relative;
+  left: 500px;
+  flex-flow: row wrap;
+}
 .card-body {
   color:black;
+}
+.beans {
+  position: relative;
+  left: 500px;
+  bottom: 400px;
 }

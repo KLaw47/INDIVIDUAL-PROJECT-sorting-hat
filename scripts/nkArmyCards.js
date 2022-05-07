@@ -8,6 +8,7 @@ const renderArmy = (array) => {
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${member.name}</h5>
+      <p>Servant of our Lord of Darkness</p>
     </div>
   </div>`;
   }
