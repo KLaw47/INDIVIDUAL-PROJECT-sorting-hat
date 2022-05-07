@@ -5,7 +5,6 @@ const gowHouses = [
   "messanteu"
 ];
 let gowStudents = [
-
 ];
 const nkArmy = [];
 
