@@ -23,20 +23,22 @@ let domString =
    <form id="student">
      <div class="mb-3">
        <label for="StudentName" class="form-label">Student Name</label>
-        <input type="text" placeholder="name" class="form-control" id="studentName" aria-describedby="student-name">
+        <input type="text" placeholder="name" class="form-control" id="studentName" aria-describedby="student-name" required>
      </div>
       <button type="submit" id="sort" class="btn btn-primary">Sort</button>
    </form>
   </div>
-  <div id="filterbtns">
+  <div id="filterbtns" class= "filter-btns">
     <button class="btn btn-secondary btn-lg buttonRow" id="acrabus">Aqrabus</button>
     <button class="btn btn-secondary btn-lg buttonRow" id="hercinil">Hercinil</button>
     <button class="btn btn-secondary btn-lg buttonRow" id="messanteu">Messanteu</button>
     <button class="btn btn-secondary btn-lg buttonRow" id="chimeron">Chimeron</button>
     <button class="btn btn-secondary btn-lg buttonRow" id= "clear">Clear Filters</button>
   </div>
-<div class="students" id="enrolledStudents"></div>
-<div class="nkArmy" id="n-k-army"></div>
+  <div class="beans">
+    <div class="students" id="enrolledStudents"></div>
+    <div class="nkArmy" id="n-k-army"></div>
+  </div>
 </div>
 `;
 

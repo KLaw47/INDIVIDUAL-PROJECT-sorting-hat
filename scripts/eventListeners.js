@@ -33,8 +33,10 @@ const eventListeners = () => {
       name: document.querySelector("#studentName").value,
       id: gowId,
       house: gowHouses[random],
-      enrolled: true,
-   }
+   };
+
+
+
 
    gowStudents.push(studentObj);
    renderStudents(gowStudents);
