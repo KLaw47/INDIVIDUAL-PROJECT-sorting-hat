@@ -29,12 +29,25 @@ const eventListeners = () => {
     const random = Math.floor(Math.random() * gowHouses.length)
     const cardId = gowStudents.map(student =>  student.id).sort((a, b) => a - b);
     const gowId = cardId.length ? cardId[cardId.length - 1] + 1 : 1;
+    const house = gowHouses[random];
+    const messanteu = "./images/Messanteu.jpg";
+    const hercinil = "./images/Hercinil.jpg";
+    const chimeron = "./images/Chimeron.jpg";
+    const acrabus = "./images/Acrabus.jpg";
    const studentObj = {
       name: document.querySelector("#studentName").value,
       id: gowId,
-      house: gowHouses[random],
+      house: house,
    };
-
+   if (house === "acrabus"){
+   studentObj.imgUrl = acrabus;
+   } else if (house === "messanteu") {
+     studentObj.imgUrl = messanteu;
+   } else if (house === "hercinil") {
+     studentObj.imgUrl = hercinil;
+   }else if (house === "chimeron") {
+     studentObj.imgUrl = chimeron;
+   };
 
 
 
